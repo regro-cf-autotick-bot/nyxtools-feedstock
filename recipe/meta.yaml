@@ -1,5 +1,5 @@
 {% set name = "nyxtools" %}
-{% set version = "0.0.4" %}
+{% set version = "0.0.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/nyxtools-{{ version }}.tar.gz
-  sha256: b5a207cdcfdf59afbad9775eacfe83617a090b686f74c3c6485c05071b0569a4
+  sha256: 4dd22d7cbf5d54aa327bc1f6d6444d0ded65ebf9ba22cbdeb257479868e12206
 
 build:
   number: 0
@@ -22,6 +22,7 @@ requirements:
     - python >=3.7
     - area-detector-handlers
     - mxtools
+    - fabio
 
 test:
   imports:
