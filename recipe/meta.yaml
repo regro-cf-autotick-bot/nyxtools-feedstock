@@ -1,5 +1,5 @@
 {% set name = "nyxtools" %}
-{% set version = "0.0.9" %}
+{% set version = "0.0.10" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/nyxtools-{{ version }}.tar.gz
-  sha256: 5f2eefae49d3fb62d6bb1b0e03c0a0f33c50d1a0b7db50445be2bacfb676e573
+  sha256: 2aa86f79f3f8f3e30c8adfc6d0d31477a39809ca49eaeb8803cda9a2647b4c62
 
 build:
   number: 0
