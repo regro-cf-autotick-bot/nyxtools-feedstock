@@ -23,6 +23,10 @@ requirements:
     - area-detector-handlers
     - mxtools
     - fabio
+    - tiled
+    # TODO: remove tiled once databroker has tiled as a dependency for
+    # databroker > 2.0.0b4 - copied from mxtools
+
 
 test:
   imports:
