@@ -1,5 +1,5 @@
 {% set name = "nyxtools" %}
-{% set version = "0.0.10" %}
+{% set version = "0.0.11" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/nyxtools-{{ version }}.tar.gz
-  sha256: 2aa86f79f3f8f3e30c8adfc6d0d31477a39809ca49eaeb8803cda9a2647b4c62
+  sha256: 6ba133ba54a0d265f54a7f853f62adc62ab5a144f05dc3c72770b0ce20d6a5c5
 
 build:
   number: 0
@@ -23,6 +23,10 @@ requirements:
     - area-detector-handlers
     - mxtools
     - fabio
+    - tiled
+    # TODO: remove tiled once databroker has tiled as a dependency for
+    # databroker > 2.0.0b4 - copied from mxtools
+
 
 test:
   imports:
