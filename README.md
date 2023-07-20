@@ -1,11 +1,11 @@
-About nyxtools
-==============
+About nyxtools-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/nyxtools-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/NSLS-II-NYX/nyxtools
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/nyxtools-feedstock/blob/main/LICENSE.txt)
 
 Summary: Common code for the NYX beamline at NSLS-II.
 
@@ -145,4 +145,5 @@ Feedstock Maintainers
 
 * [@JunAishima](https://github.com/JunAishima/)
 * [@mrakitin](https://github.com/mrakitin/)
+* [@vshekar](https://github.com/vshekar/)
 
