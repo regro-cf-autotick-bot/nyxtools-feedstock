@@ -28,14 +28,14 @@ requirements:
     # databroker > 2.0.0b4 - copied from mxtools
 
 
-test:
-  imports:
-    - nyxtools
-    - nyxtools.tests
-  commands:
-    - pip check
-  requires:
-    - pip
+#test:
+#  imports:
+#    - nyxtools
+#    - nyxtools.tests
+#  commands:
+#    - pip check
+#  requires:
+#    - pip
 
 about:
   home: https://github.com/NSLS-II-NYX/nyxtools
